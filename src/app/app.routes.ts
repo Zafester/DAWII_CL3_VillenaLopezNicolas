@@ -3,6 +3,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { PreguntaUnoComponent } from './dashboard/pregunta-uno/pregunta-uno.component';
 import { PreguntaDosComponent } from './dashboard/pregunta-dos/pregunta-dos.component';
 
+
 export const routes: Routes = [
     {path: "dashboard", component:DashboardComponent,
         children: [
@@ -10,4 +11,5 @@ export const routes: Routes = [
             {path: "preguntaDos", component:PreguntaDosComponent}
         ]
     },
+    {path: "pregunta", component:PreguntaUnoComponent}
 ];

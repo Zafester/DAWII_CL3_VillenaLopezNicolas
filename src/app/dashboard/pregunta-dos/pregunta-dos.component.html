@@ -1,1 +1,18 @@
-<p>pregunta-dos works!</p>
+<table>
+    <tr> 
+        <th> User ID </th>
+        <th> Id </th>
+        <th> Title </th>
+        <th> Completed </th>
+
+    </tr>
+    <tr *ngFor="let item of posts">
+        <td>{{item.userId}}</td>
+        <td>{{item.id}}</td>
+        <td>{{item.title}}</td>
+        <td>{{item.completed}}</td>
+
+    </tr> 
+
+    
+</table>

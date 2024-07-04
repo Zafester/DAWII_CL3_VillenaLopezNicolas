@@ -1,1 +1,21 @@
-<p>pregunta-uno works!</p>
+<table>
+    <tr> 
+        <th> ID </th>
+        <th> name </th>
+        <th> Type </th>
+        <th> Dimension </th>
+        <th> url </th>
+        <th> Created </th>
+
+    </tr>
+    <tr *ngFor="let item of posts">
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.type}}</td>
+        <td>{{item.dimension}}</td>
+        <td>{{item.url}}</td>
+        <td>{{item.created}}</td>
+    </tr> 
+
+    
+</table>
